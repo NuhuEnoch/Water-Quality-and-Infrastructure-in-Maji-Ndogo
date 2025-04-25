@@ -60,7 +60,11 @@ FROM md_water_services.employee;
 
 -- UPDATING THE EMAIL COLUMN --
 UPDATE md_water_services.employee
-SET email = CONCAT(LOWER(REPLACE(employee_name, ' ','.')),'@ndogowater.gov';
+SET
+	email = CONCAT(
+		LOWER(REPLACE(employee_name, ' ','.')),
+		'@ndogowater.gov'
+	);
 
 
 -- Testing the Phone Number Column --
