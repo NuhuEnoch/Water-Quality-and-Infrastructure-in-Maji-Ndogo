@@ -1,10 +1,32 @@
-/*
-This script performs a comprehensive audit of water source assessments by comparing auditor-reported scores with
-those recorded by field surveyors during first-time site visits. 
-It identifies discrepancies in scoring, correlates them with individual employee performance, and flags potential
-anomalies, such as mentions of "cash", for further review. 
-The logic includes table creation, multi-table joins, filtered comparisons, CTEs for mistake aggregation, and anomaly
-detection for quality control and accountability tracking.
+/* 
+  -------------------------------------------------------------------------------
+  PROJECT: Maji Ndogo Water Services 
+This SQL script performs an in-depth analysis of discrepancies between auditor-reported and field surveyor-reported
+water source quality scores during initial site visits.
+
+The objective is to:
+- Compare audit scores to field-collected scores.
+- Identify mismatched entries indicating scoring errors.
+- Correlate errors with individual employees to monitor performance.
+- Flag potential anomalies, especially entries mentioning suspicious terms like "cash".
+
+The logic includes:
+- Table creation (commented out for optional execution).
+- Several join operations across `auditor_report`, `visits`, `water_quality`, `water_source`, and `employee` tables.
+- Filtering for first-time visits (`visit_count = 1`) to ensure consistency.
+- Use of Common Table Expressions (CTEs) to:
+  - Aggregate mismatches (errors).
+  - Calculate and compare employee-level error rates.
+  - Identify outlier employees with above-average errors.
+  - Extract all potentially suspicious entries linked to those outliers.
+- Creation of a reusable SQL view (`Incorrect_Records`) for convenience and testing.
+- Final filtering of records that may indicate corrupt practices or quality assurance issues.
+
+This script supports quality control, employee accountability, and early detection of data integrity risks.
+
+  AUTHOR: [Nuhu Enoch]
+  DATE: [25-04-2025]
+  -------------------------------------------------------------------------------
 */
 
 
