@@ -1,7 +1,7 @@
 /* 
   -------------------------------------------------------------------------------
-  PROJECT: Maji Ndogo Water Services
-  PURPOSE:
+PROJECT: Maji Ndogo Water Services
+PURPOSE:
 This script performs various operations on water service-related tables:
 1. Displays all tables in the database.
 2. Retrieves data from 'location', 'visits', 'water_source', 'well_pollution', limiting results to a specified number.
