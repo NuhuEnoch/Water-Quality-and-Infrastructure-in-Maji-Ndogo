@@ -323,8 +323,7 @@ AND employee_name NOT IN
 		(
 			SELECT employee_name
 			FROM suspect_list
-		)
-;
+		);
 
 
 -- INSIGHT
