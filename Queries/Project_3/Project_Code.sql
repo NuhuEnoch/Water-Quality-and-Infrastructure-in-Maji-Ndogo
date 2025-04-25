@@ -1,4 +1,14 @@
 /*
+This script performs a comprehensive audit of water source assessments by comparing auditor-reported scores with
+those recorded by field surveyors during first-time site visits. 
+It identifies discrepancies in scoring, correlates them with individual employee performance, and flags potential
+anomalies, such as mentions of "cash", for further review. 
+The logic includes table creation, multi-table joins, filtered comparisons, CTEs for mistake aggregation, and anomaly
+detection for quality control and accountability tracking.
+*/
+
+
+/*
 	DROP TABLE IF EXISTS `auditor_report`;
 	CREATE TABLE `auditor_report`
 	(
