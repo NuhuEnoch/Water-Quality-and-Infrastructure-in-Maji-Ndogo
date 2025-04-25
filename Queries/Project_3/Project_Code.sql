@@ -1,6 +1,6 @@
 /* 
   -------------------------------------------------------------------------------
-  PROJECT: Maji Ndogo Water Services 
+PROJECT: Maji Ndogo Water Services 
 This SQL script performs an in-depth analysis of discrepancies between auditor-reported and field surveyor-reported
 water source quality scores during initial site visits.
 
