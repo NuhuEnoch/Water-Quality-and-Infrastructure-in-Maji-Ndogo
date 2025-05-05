@@ -33,9 +33,6 @@
     This script enables the Maji Ndogo Water Services team to assess the current state of water 
     infrastructure, employee distribution, and community access. It offers actionable insights 
     for improving water service delivery and reducing wait times.
-
-  AUTHOR: [Nuhu Enoch]
-  DATE: [25-04-2025]
   -------------------------------------------------------------------------------
 */
 
