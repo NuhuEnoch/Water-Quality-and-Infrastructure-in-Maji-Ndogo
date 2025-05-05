@@ -6,9 +6,6 @@ This script consolidates and analyzes data from multiple tables (visits, well_po
 2. Create a view combining relevant data for easier analysis.
 3. Calculate the percentage distribution of people served by each water source type per province.
 4. Calculate the source distribution per town while addressing duplicate town names by grouping with province.
-
-  AUTHOR: [Nuhu Enoch]
-  DATE: [25-04-2025]
   -------------------------------------------------------------------------------
 */
 
