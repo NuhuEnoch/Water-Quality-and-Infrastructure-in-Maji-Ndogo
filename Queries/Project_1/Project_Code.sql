@@ -11,9 +11,6 @@ This script performs various operations on water service-related tables:
 6. Updates descriptions and results in the 'well_pollution' table based on specific conditions.
 7. Verifies if the updates took effect by querying the 'well_pollution' table.
 8. Drops the backup table after testing.
-
-  AUTHOR: [Nuhu Enoch]
-  DATE: [25-04-2025]
   -------------------------------------------------------------------------------
 */
 
