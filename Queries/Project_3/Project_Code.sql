@@ -23,9 +23,6 @@ The logic includes:
 - Final filtering of records that may indicate corrupt practices or quality assurance issues.
 
 This script supports quality control, employee accountability, and early detection of data integrity risks.
-
-  AUTHOR: [Nuhu Enoch]
-  DATE: [25-04-2025]
   -------------------------------------------------------------------------------
 */
 
