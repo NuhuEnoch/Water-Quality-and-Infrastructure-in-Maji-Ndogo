@@ -11,10 +11,6 @@ The improvements are determined through control flow logic (CASE statements) for
 4. Shared taps with queue > 30 min → Install additional taps (calculated by FLOOR(time_in_queue / 30)).
 5. Broken in-home taps → Diagnose local infrastructure.
 Improvements for wells and shared taps require IF logic, which will be implemented using CASE functions.
-
-
-AUTHOR: [Nuhu Enoch]
-DATE: [25-04-2025]
   -------------------------------------------------------------------------------
 */
 
